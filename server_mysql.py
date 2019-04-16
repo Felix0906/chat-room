@@ -6,7 +6,7 @@ class Mysql_conn(object):
     def __init__(self):
         self.conn = connect(host='localhost', port=3306,
             database='user_info', user='root',
-            passwd='felix0906', charset='utf8')
+            passwd='*****', charset='utf8')
         self.cursor = self.conn.cursor()
 
     def __del__(self):

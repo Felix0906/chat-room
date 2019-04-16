@@ -186,7 +186,7 @@ wlist = []
 xlist = [s]
 
 online_user = {}
-FILE_PATH = '/home/tarena/桌面/chat_1216/'
+FILE_PATH = '********************'
 
 while True:
     rs, ws, es = select.select(rlist, wlist, xlist)
